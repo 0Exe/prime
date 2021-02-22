@@ -1,4 +1,4 @@
-def prime(num:int, show:bool = False, sf:bool = True):
+def prime(num:int, show:bool = True, sf:bool = True):
     if num == 2:
         print(num)
         if not sf:
