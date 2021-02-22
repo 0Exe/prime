@@ -10,7 +10,7 @@ download `prime.py` and put in folder of use
 from prime import prime
 from prime import *
 
-prime(integer) # returns `True` / `False`
+prime(integer) # returns True / False
 
 # -- other uses --
 
@@ -21,13 +21,13 @@ for i in range(num1, num2):
   placeholder = prime(i)
   if placeholder:
     print(placeholder)
-  # doesn't give back `False`, only `True`
+  # doesn't give back False, only True
   ```
   
  ```py
 import prime
 
-prime.prime(integer) # returns `True` / `False`
+prime.prime(integer) # returns True / False
 
 # -- other uses --
 
@@ -38,5 +38,5 @@ for i in range(num1, num2):
   placeholder = prime.prime(i)
   if placeholder:
     print(placeholder)
-  # doesn't give back `False`, only `True`
+  # doesn't give back False, only True
   ```
